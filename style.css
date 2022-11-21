@@ -1,0 +1,157 @@
+* {
+    /*border: 1px solid red;*/
+    font-family: 'Roboto';
+}
+
+
+body {
+    margin: 0%;
+}
+
+.navbar {
+   display: flex;
+   width: 100%;
+   background-color:black ;
+   color: white;
+}
+
+.title {
+    margin-right: 10%;
+}
+
+.name {
+    width: 100%;
+}
+
+.navbar-flex {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-grid-item {
+    color: white;
+    text-decoration: none;
+}
+
+.image-div {
+    position: relative;
+}
+
+.stage-image {
+    z-index: -1;
+}
+
+.image-text {
+    z-index: 1;
+    position: absolute;
+    color: white;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 125px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.show-section {
+    width: 100%;
+}
+
+.show-info-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 7%;
+} 
+
+
+.show-info-grid-item {
+    /* display: flex; */
+    width: 100%;
+    margin-top: 5%;
+    padding-bottom: 3%;
+    margin-bottom: 4%;
+    border-bottom: 1px solid gray;
+    display: grid;
+    grid-template-columns: 300px 400px 125px;
+}
+
+.show-month {
+    border: 1px solid gray;
+    font-weight: 100;
+    font-size: large;
+    height: 3.5%;
+}
+
+.month-text { 
+    margin: 0.5%;
+    margin-left: 5%;
+}
+
+.show-info-text {
+    margin-left: 0%;
+    margin-right: 15%;
+    margin-top: -5%;
+}
+
+.actor-image {
+    width: 80%;
+    height: 175px;
+    margin-left: 5%;
+}
+
+.read-more {
+    background-color: rgb(243, 195, 36);
+    color: white;
+    width: 125px;
+    height: 50px;
+    margin-top: 20%;
+    font-size: larger;
+}
+
+h3,h4 {
+    font-weight: 100;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 3%;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+    width: 90%;
+}
+
+.footer-grid-item{
+    width: 35%;
+    height: 25%;
+}
+
+.footer-info {
+    display: grid;
+    grid-template-rows: 100px 100px 100px 20px;
+}
+
+.footer-shows {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.social-media {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+i {
+    color:rgb(243, 195, 36) ;
+}
